@@ -1,0 +1,51 @@
+[main]
+host = https://www.transifex.com
+
+[edgedb-docs.datamodel-pot]
+file_filter = doc/locales/<lang>/LC_MESSAGES/datamodel.po
+minimum_perc = 0
+source_file = _build/locale/datamodel.pot
+source_lang = en
+type = PO
+
+[edgedb-docs.edgeql-pot]
+file_filter = doc/locales/<lang>/LC_MESSAGES/edgeql.po
+minimum_perc = 0
+source_file = _build/locale/edgeql.pot
+source_lang = en
+type = PO
+
+[edgedb-docs.graphql-pot]
+file_filter = doc/locales/<lang>/LC_MESSAGES/graphql.po
+minimum_perc = 0
+source_file = _build/locale/graphql.pot
+source_lang = en
+type = PO
+
+[edgedb-docs.index-pot]
+file_filter = doc/locales/<lang>/LC_MESSAGES/index.po
+minimum_perc = 0
+source_file = _build/locale/index.pot
+source_lang = en
+type = PO
+
+[edgedb-docs.intro-pot]
+file_filter = doc/locales/<lang>/LC_MESSAGES/intro.po
+minimum_perc = 0
+source_file = _build/locale/intro.pot
+source_lang = en
+type = PO
+
+[edgedb-docs.quickstart-pot]
+file_filter = doc/locales/<lang>/LC_MESSAGES/quickstart.po
+minimum_perc = 0
+source_file = _build/locale/quickstart.pot
+source_lang = en
+type = PO
+
+[edgedb-docs.sphinx-pot]
+file_filter = doc/locales/<lang>/LC_MESSAGES/sphinx.po
+minimum_perc = 0
+source_file = _build/locale/sphinx.pot
+source_lang = en
+type = PO

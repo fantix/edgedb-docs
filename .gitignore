@@ -2,6 +2,7 @@
 *.pyc
 *.pyo
 *.so
+*.mo
 *~
 .#*
 .DS_Store
@@ -25,3 +26,5 @@ docs/_build
 /.vscode
 /_build
 /.pytest_cache
+/.idea/
+/.python-version

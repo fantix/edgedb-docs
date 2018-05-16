@@ -2,3 +2,4 @@
 requests-xml
 pytest
 flake8
+transifex-client
