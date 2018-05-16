@@ -1,0 +1,9 @@
+name: edgedb
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.6
+  - pip:
+    - lxml
+    - git+https://github.com/edgedb/edgedb.git
