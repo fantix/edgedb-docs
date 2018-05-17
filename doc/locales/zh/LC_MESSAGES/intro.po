@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, magicstack
+# This file is distributed under the same license as the EdgeDB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: EdgeDB 0.5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-17 15:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: fantix <fantix.king@gmail.com>, 2018\n"
+"Language-Team: Chinese (https://www.transifex.com/decentfox-studio/teams/86517/zh/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../doc/intro.rst:2
+msgid "Introduction"
+msgstr "介绍"
+
+#: ../../doc/intro.rst:4
+msgid ""
+"EdgeDB is an object-relational database that stores and describes the data "
+"as strongly typed objects and relationships between them."
+msgstr ""
+"EdgeDB 是一种 `对象关系数据库 <https://en.wikipedia.org/wiki/Object-"
+"relational_database>`_，它将数据以强类型的对象及其关系的形式进行描述和存储。"
+
+#: ../../doc/intro.rst:9
+msgid "EdgeDB features:"
+msgstr "EdgeDB 的功能包括："
+
+#: ../../doc/intro.rst:11
+msgid "strict, strongly typed schema;"
+msgstr "严格、强类型的 `数据模式 <https://en.wikipedia.org/wiki/Database_schema>`_；"
+
+#: ../../doc/intro.rst:12
+msgid "powerful and clean query language;"
+msgstr "强大且整洁的查询语言；"
+
+#: ../../doc/intro.rst:13
+msgid "ability to easily work with complex hierarchical data;"
+msgstr "轻松处理复杂的层次结构数据；"
+
+#: ../../doc/intro.rst:14
+msgid "built-in support for schema migrations."
+msgstr "内置的 `数据模式变更 <https://en.wikipedia.org/wiki/Schema_migration>`_ 支持。"
+
+#: ../../doc/intro.rst:16
+msgid ""
+"EdgeDB is not a graph database: the data is stored and queried using "
+"relational database techniques.  Unlike most graph databases, EdgeDB "
+"maintains a strict schema."
+msgstr ""
+"EdgeDB 不是 `图数据库 <https://en.wikipedia.org/wiki/Graph_database>`_，因为 EdgeDB "
+"底层仍然在使用关系数据库的技术来存储和查询数据。不同于大多数的图数据库，EdgeDB 会维护一份严格的模式定义来约束数据。"
+
+#: ../../doc/intro.rst:20
+msgid ""
+"EdgeDB is not a document database, but inserting and querying hierarchical "
+"document-like data is trivial."
+msgstr ""
+"EdgeDB 不是 `面向文档的数据库 <https://en.wikipedia.org/wiki/Document-"
+"oriented_database>`_，但使用 EdgeDB 来创建和查询层次化的文档数据是非常容易的。"
+
+#: ../../doc/intro.rst:23
+msgid ""
+"EdgeDB is not a traditional object database, despite the classification, it "
+"is not an implementation of OOP persistence."
+msgstr ""
+"EdgeDB 不是传统的 `对象数据库 "
+"<https://en.wikipedia.org/wiki/Object_database>`_，抛开概念不说，EdgeDB "
+"没有采用面向对象的持久化方式来实现。"

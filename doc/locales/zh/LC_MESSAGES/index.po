@@ -1,0 +1,27 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, magicstack
+# This file is distributed under the same license as the EdgeDB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: EdgeDB 0.5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-17 15:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: fantix <fantix.king@gmail.com>, 2018\n"
+"Language-Team: Chinese (https://www.transifex.com/decentfox-studio/teams/86517/zh/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../doc/index.rst:6
+msgid "EdgeDB documentation"
+msgstr "EdgeDB 文档"
+
+#: ../../doc/index.rst:8
+msgid "Welcome to the EdgeDB |version| documentation."
+msgstr "欢迎来到 EdgeDB |version| 的文档。"

@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, magicstack
+# This file is distributed under the same license as the EdgeDB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: EdgeDB 0.5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-17 15:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: fantix <fantix.king@gmail.com>, 2018\n"
+"Language-Team: Chinese (https://www.transifex.com/decentfox-studio/teams/86517/zh/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../doc/quickstart.rst:3
+msgid "Quickstart"
+msgstr "快速上手"
+
+#: ../../doc/quickstart.rst:6
+msgid "Getting EdgeDB"
+msgstr "获取 EdgeDB"
+
+#: ../../doc/quickstart.rst:8
+msgid ""
+"While EdgeDB is in the technology preview phase, the easiest way to get it "
+"is to download a docker image:"
+msgstr "目前 EdgeDB 处于早期技术预览阶段，最简便的获取方式是下载一个 Docker 镜像："
+
+#: ../../doc/quickstart.rst:17
+msgid "Starting the Server"
+msgstr "启动服务器"
+
+#: ../../doc/quickstart.rst:19
+msgid "To begin, start the EdgeDB server and open an interactive shell to it."
+msgstr "首先，我们要启动一个 EdgeDB 服务器，并且打开一个 EdgeDB 的交互式命令行终端。"
+
+#: ../../doc/quickstart.rst:21
+msgid "If you are using a Docker image, run:"
+msgstr "如果您使用的是 Docker 镜像，则仅需执行该命令即可："
+
+#: ../../doc/quickstart.rst:28
+msgid ""
+"Once the EdgeDB server is up, an interactive shell session will open, "
+"connected to the default database:"
+msgstr "服务器启动完成之后，会自动打开一个 EdgeDB 的交互式命令行终端，并连接到默认数据库："
+
+#: ../../doc/quickstart.rst:37
+msgid "Defining the Schema"
+msgstr "定义数据模式"
+
+#: ../../doc/quickstart.rst:39
+msgid ""
+"For the purpose of this tutorial let's imagine we are building a platform "
+"for collaborative development."
+msgstr "在这篇上手指南中，让我们假设要做一个类似于 GitHub 的协作式开发平台。"
+
+#: ../../doc/quickstart.rst:42
+msgid ""
+"To manipulate and query data in EdgeDB we must first define a schema. We "
+"will be working with three object types: ``User``, ``PullRequest``, and "
+"``Comment``.  Let's define the initial schema with a migration:"
+msgstr ""
+"首先，我们需要定义数据模式，这是之后数据操作和查询的前提。仿照 GitHub，该平台会有三种类型的对象：``User``、``PullRequest``"
+" 和 ``Comment``。下面让我们创建一个模式变更，作为这些初始数据模式的定义："
+
+#: ../../doc/quickstart.rst:72
+msgid ""
+"With the above snippet we defined and applied a migration to a schema "
+"described using the :ref:`declarative schema language <ref_eschema>`. We "
+"created the three main object types, each with a number of properties and "
+"links to other objects."
+msgstr ""
+"通过上述命令，我们用 :ref:`模式定义语言 <ref_eschema>`  "
+"创建了一个模式变更，执行后将数据库模式从零更新至我们定义的数据模式，过程中创建了三个对象类型，每个类型还包括一些属性（``property``），以及指向其他对象的链接（``link``）。"
+
+#: ../../doc/quickstart.rst:77
+msgid ""
+"Notice how the ``PullRequest`` and the ``Comment`` types have common "
+"properties: ``body`` and ``created_on`` as well as the ``author`` link.  "
+"Let's remove this duplication by declaring an abstract parent type "
+"``AuthoredText`` and :ref:`extending <ref_datamodel_inheritance>` "
+"``Comment`` and ``PullRequest`` from it:"
+msgstr ""
+"请注意 ``PullRequest`` 类型与 ``Comment`` 类型有一部分属性是相同的：``body`` 与 "
+"``created_on``，以及链接 ``author``。为了避免代码重复，我们应创建一个抽象类型 ``AuthoredText`` "
+"作为父类型，并使 ``Comment`` 与 ``PullRequest`` :ref:`继承 <ref_datamodel_inheritance>`"
+" ``AuthoredText``："
+
+#: ../../doc/quickstart.rst:116
+msgid "Inserting Data"
+msgstr "新增数据"
+
+#: ../../doc/quickstart.rst:118
+msgid "Now that we've defined the schema, let's create some users:"
+msgstr "定义好了数据模式，现在我们可以创建一些用户了："
+
+#: ../../doc/quickstart.rst:147
+msgid "Then, a ``PullRequest`` object:"
+msgstr "然后是一个 ``PullRequest`` 对象："
+
+#: ../../doc/quickstart.rst:165
+msgid ""
+"\"PR #1\" has been commented on, let's update it with a new ``Comment`` "
+"object:"
+msgstr "“PR #1”上有新评论了，我们给它添加一个 ``Comment`` 对象："
+
+#: ../../doc/quickstart.rst:184
+msgid "Let's create another PR, together with the corresponding comments:"
+msgstr "接下来再创建一个 PR，这次我们把它的评论一并创建出来："
+
+#: ../../doc/quickstart.rst:226
+msgid "Querying Data"
+msgstr "查询数据"
+
+#: ../../doc/quickstart.rst:228
+msgid "Now that we inserted some data, let’s run some queries!"
+msgstr "新增了数据之后，现在我们可以跑几个查询试试了！"
+
+#: ../../doc/quickstart.rst:230
+msgid ""
+"Get all \"Open\" pull requests, their authors, and who they are assigned to,"
+" in reverse chronological order:"
+msgstr "以从新到旧的顺序，获取所有“打开”状态的 PR，以及他们的发起人和负责人："
+
+#: ../../doc/quickstart.rst:251 ../../doc/quickstart.rst:289
+#: ../../doc/quickstart.rst:348
+msgid "Result:"
+msgstr "结果如下："
+
+#: ../../doc/quickstart.rst:270
+msgid ""
+"Now, let's see which PRs a particular user has authored or commented on, and"
+" let's also return the count of comments for each returned PR:"
+msgstr "然后，让我们尝试找到一个用户发起的或评论过的所有 PR，以及每个 PR 上的评论数量："
+
+#: ../../doc/quickstart.rst:308
+msgid "Deleting Data"
+msgstr "删除数据"
+
+#: ../../doc/quickstart.rst:310
+msgid ""
+"Suppose we need to remove all content authored by Carol.  First, let's see "
+"which entries are by Carol:"
+msgstr "比方说，现在我们需要删除卡罗尔同学产生的所有数据。第一步，我们先看一下卡罗尔同学一共创建过多少内容："
+
+#: ../../doc/quickstart.rst:323
+msgid ""
+"In the above query we used the fact that all authored objects can be "
+"selected by referring to the ``AuthoredText`` type.  Since we have two "
+"objects authored by Carol--a pull request, and a comment--the result is:"
+msgstr ""
+"在上面的查询中，我们直接使用了父类型 ``AuthoredText`` 进行查询，而实际上所有 ``AuthoredText`` "
+"的子类型的对象都能被查询到。因为卡罗尔同学只创建了一个 PR 和一条评论，所以我们得到的结果是："
+
+#: ../../doc/quickstart.rst:339
+msgid "Let's delete them now:"
+msgstr "现在可以删除他们了："

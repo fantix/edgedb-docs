@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, magicstack
+# This file is distributed under the same license as the EdgeDB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: EdgeDB 0.5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-17 15:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: fantix <fantix.king@gmail.com>, 2018\n"
+"Language-Team: Chinese (https://www.transifex.com/decentfox-studio/teams/86517/zh/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../doc/_templates/srclinks.html:2
+msgid "This Page"
+msgstr "当前页面"
+
+#: ../../doc/_templates/srclinks.html:6
+msgid "Source RST"
+msgstr "RST 源文件"
+
+#: ../../doc/_templates/srclinks.html:10
+msgid "Source"
+msgstr "源码"
+
+#: ../../doc/_templates/srclinks.html:15
+msgid "Edit"
+msgstr "编辑"
+
+#: ../../doc/_templates/srclinks.html:20
+msgid "History"
+msgstr "历史"
+
+#: ../../doc/_templates/srclinks.html:25
+msgid "Annotate"
+msgstr "注解"
