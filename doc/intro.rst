@@ -1,6 +1,13 @@
 Introduction
 ============
 
+.. important::
+
+    This translation is done in purpose of learning, and should not be
+    considered as an official translation yet. It may also be seriously
+    outdated. For official documentation please go to https://edgedb.com/docs.
+    Discussion goes `here <https://github.com/fantix/edgedb-docs/issues/1>`_.
+
 EdgeDB is an object-relational database that stores and describes the data
 as strongly typed objects and relationships between them.
 
